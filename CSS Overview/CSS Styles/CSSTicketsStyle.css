@@ -1,0 +1,33 @@
+table {
+	background-color: #606060; 
+	font-family: "Arial";
+}
+td {
+	height: 35px;
+}
+img {
+	width: 15px;
+	height: 15px;
+}
+td.yellow {
+	color: #FFFF85;
+}
+td.red {
+	color: #FF0000;
+	vertical-align: text-top; 
+}
+td.white {
+	color: #EBEBEB;
+	font-style: italic;	
+}
+td.grey {
+	color: #969696;
+}
+td.orange {
+	color: #E65C00;
+}
+th.grey {
+	color: #969696;
+	text-align: left;
+	font-size: 25px;
+}

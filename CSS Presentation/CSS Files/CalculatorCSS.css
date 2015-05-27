@@ -1,0 +1,92 @@
+div#wrapper {
+	width: 450px;
+	height: 360px;
+	background: #f2f2f2; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f2f2f2 0%, #77ebef 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(100%,#77ebef)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f2f2f2 0%,#77ebef 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f2f2f2 0%,#77ebef 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f2f2f2 0%,#77ebef 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f2f2f2 0%,#77ebef 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#77ebef',GradientType=0 ); /* IE6-9 */
+
+}
+aside {
+	float: left;
+}
+input[type="text"] {
+	width: 400px;
+	height: 50px;
+	border-radius: 3px;
+}
+div#mainBody {
+	width: 430px;
+	height: 320px;
+}
+div#systemButtons, div#memoryOptions, div#mainBody {
+	border-width:  1px;
+	border-style: solid;
+	border-color: black;
+	margin: 3px;
+}
+div#result, div#binaryNumbers {
+	margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+button {
+	padding:0;
+	border: 1px solid black;
+	width:100%;
+	height:100%;
+}
+td {
+	height: 25px;
+	width:  40px;
+}
+div#options {
+	float: right;
+	border: 1px solid black;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+div#options>span#centered {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	padding: 1px;
+}
+div#options {
+	text-align: center;
+
+}
+div#menu>span {
+	text-decoration: underline;
+}
+
+div#menu {
+	border-bottom: 1px solid black;
+	background-color: #E6E6E6;
+}
+.resultDisplay {
+	background: #efefef; /* Old browsers */
+	background: -moz-linear-gradient(top,  #efefef 0%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#efefef), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #efefef 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #efefef 0%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #efefef 0%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #efefef 0%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	text-align: right;
+
+}
+div#mainBody {
+	background-color: #2593B8;
+}
+.binaryDisplay {
+	background-color: transparent;
+}
+div#options>span {
+	font-weight: bold;
+}

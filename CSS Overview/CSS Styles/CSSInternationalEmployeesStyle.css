@@ -1,0 +1,37 @@
+table {
+	border-collapse: collapse;
+	font-size: 10px; 
+}
+table, th, td {
+	border: 1px solid #33AD33;
+}
+th {
+	color: #FFFFFF;
+	background-color: #00A100;
+}
+img {
+	width: 20px;
+	height: 15px;
+}
+tr.white {
+	background-color: #FFFFFF;
+}
+tr.grey {
+	background-color: #E6E6E6;
+}
+th {
+	font-weight: normal;
+}
+th.leftAndFonted {
+	text-align: left;
+	font-family: "Arial";
+}
+th.justified {
+	text-align: justify;
+	font-family: "Times New Roman";
+}
+td {
+	font-family: "Arial";
+	vertical-align: middle !important;
+
+}

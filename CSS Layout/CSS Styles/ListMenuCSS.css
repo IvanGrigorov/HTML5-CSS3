@@ -1,0 +1,15 @@
+body>ul>li>ul {
+	display: none;
+}
+body>ul>li:hover > ul {
+	display: block;
+}
+body ul {
+	list-style: none;
+}
+body>ul>li>ul>li {
+	color: #E6E6E6;
+}
+body>ul>li:hover span {
+	text-decoration: underline;
+}

@@ -1,0 +1,67 @@
+body > div { 
+	position: absolute;
+	padding: 10px;
+	height: 400px;
+	width: 350px;
+	background-color: #E6E6E6;
+	border-radius: 5px;
+}
+div.Firstnested {
+	position: absolute;
+	top: 25px;
+}
+div.Secondnested {
+	position: absolute;
+	top: 145px;
+}
+div.Thirdnested {
+	position: absolute;
+	top: 265px;
+}
+div.Firstnested, div.Secondnested, div.Thirdnested {
+	
+	margin-top: 15px;
+	background-color: #FFF;
+	height: 21%;
+	width: 89%;
+	padding: 10px;
+
+}
+div.image {
+	float: left;
+	margin-right: 10px;
+}
+body>div div {
+	font-size: 12px;
+	font-family: "Arial";
+}
+span {
+	font-weight: bold;
+}
+div.options>ul>li {
+	display: inline-block;
+}
+div.options {
+	position: absolute;
+
+	bottom: 0px;
+	right: 10px; 		
+}
+li>div.Listen {
+	position: absolute;
+	display: inline-block;
+	z-index: 1;
+	bottom: 20px;
+	color: #FFF;
+	right: 81px;
+
+}
+li>div.Add {
+	position: absolute;
+	display: inline-block;
+	z-index: 1;
+	color: #FFF;
+	right: 15px;
+	bottom: 20px;
+
+}

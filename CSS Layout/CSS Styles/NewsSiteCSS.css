@@ -1,0 +1,59 @@
+nav > ul >li {
+	display: inline-block;
+	height: 25px;
+	padding: 5px;
+}
+nav > ul > li > a {
+	vertical-align: baseline;
+}
+section>ul { 
+	list-style: none;
+	padding: 0px;
+}
+a {
+	text-decoration: none;
+}
+section {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+div#wrapper {
+	width: 630px;
+	border-radius: 10px;
+	background-color: #0F2B46;
+	padding-top: 5px;
+	font-family: "Arial";
+}
+section > ul  li > a  {
+	color: #999;
+}
+section > ul  li {
+	width: 270px;
+	border-bottom: 1px solid #999;
+	display: block;
+	padding-left: 5px;
+}
+section > ul > li:hover{
+	background-color: #5CE6B8;
+}
+section > ul > li:hover > a{
+	color: #FFF;
+}
+header {
+	margin: 0px;
+}
+nav > ul > li:first-child > a {
+	color: #FFF;
+}
+nav > ul > li:not(:first-child) {
+	background-color: #338585;
+}
+nav > ul > li:not(first-child) > a {
+	color: #99C2C2;
+}
+nav > ul {
+	padding: 0px;
+	padding-left: 10px;
+	margin: 5px
+}
